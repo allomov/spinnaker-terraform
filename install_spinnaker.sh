@@ -114,7 +114,7 @@ done
 ./support/check_python_prereqs.py $CLOUD_PROVIDER
 RETVAL=$?
 
-TF_VERSION=`terraform -version | head -1 | sed -e 's/.*v//'`
+TF_VERSION=`terraform -version | sed -e 's/.*v//' | head -1`
 TF_FORMATTED_VERSION=`echo $TF_VERSION | sed -e 's/.*v//' -e 's/\.//' -e 's/\.//'`
 
 REQD_TF_VERSION='0.6.9'
