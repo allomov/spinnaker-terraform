@@ -74,14 +74,14 @@ variable "ielb_private_subnet_block" {
 
 variable "aws_spinnaker_amis" {
   "default" = {
-    "ap-northeast-1-hvm" = "ami-564b7538"
-    "ap-southeast-1-hvm" = "ami-98408cfb"
-    "ap-southeast-2-hvm" = "ami-56bd9835"
-    "eu-central-1-hvm" = "ami-19c2db75"
-    "eu-west-1-hvm" = "ami-e1bc0992"
-    "sa-east-1-hvm" = "ami-9531b0f9"
-    "us-east-1-hvm" = "ami-2eb39544"
-    "us-west-1-hvm" = "ami-ef82f68f"
-    "us-west-2-hvm" = "ami-62a34702"
+    "ap-northeast-1-hvm" = "ami-268e8d48"
+    "ap-southeast-1-hvm" = "ami-4527ee26"
+    "ap-southeast-2-hvm" = "ami-f01f3993"
+    "eu-central-1-hvm" = "ami-4aa14425"
+    "eu-west-1-hvm" = "ami-4060dc33"
+    "sa-east-1-hvm" = "ami-45951729"
+    "us-east-1-hvm" = "ami-13685579"
+    "us-west-2-hvm" = "ami-4340a223"
+    "us-west-1-hvm" = "ami-1c04747c"
   }
 }
